@@ -20,7 +20,7 @@ function USRContent() {
       setLoading(true);
       console.log("main chapter id in sentences: ", main_chapter_id);
       const response = await fetch(
-        `http://10.2.8.12:5001/sentences?main_chapter_id=${main_chapter_id}`
+        `http://10.2.8.12:5040/sentences?main_chapter_id=${main_chapter_id}`
       );
       const data = await response.json();
       console.log("data in sentence: ", data);

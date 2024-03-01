@@ -5,7 +5,7 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import HttpsOutlinedIcon from "@mui/icons-material/HttpsOutlined";
 import logo from "../images/Group899.png";
 
-const LoginPage = ({}) => {
+const LoginPage = ({ onLogin }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();

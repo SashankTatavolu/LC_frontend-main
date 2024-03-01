@@ -16,7 +16,7 @@ function SentenceViewPage({ updateView }) {
     try {
       console.log("main chapter id in sentences: ", main_chapter_id);
       const response = await fetch(
-        `http://10.2.8.12:5001/sentences?main_chapter_id=${main_chapter_id}`
+        `http://10.2.8.12:5040/sentences?main_chapter_id=${main_chapter_id}`
       );
       const data = await response.json();
       console.log("data in sentence: ", data);
@@ -48,7 +48,7 @@ function SentenceViewPage({ updateView }) {
   const handleSave = async () => {
     try {
       // Send a PUT request to save changes to the server
-      await fetch(`http://10.2.8.12:5001/editSentence`, {
+      await fetch(`http://10.2.8.12:5040/editSentence`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
