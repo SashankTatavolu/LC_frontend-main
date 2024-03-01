@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  background-color: #eff1f3;
+  font-family: "Montserrat";
+}
+
+.project-section-new {
+  margin-top: 4vh;
+  margin-left: 4.5vw;
+  margin-right: 4.5vw;
+}
+
+.project-nav-new {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.project-name-new {
+  color: #4f33be;
+  font-size: 20px;
+}
+
+.project-nav-new a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.project-nav-new a:hover {
+  text-decoration: underline;
+  color: #4e33be;
+}
+
+.people-circle-new {
+  display: flex;
+  justify-content: center;
+}
+
+.circle-new {
+  background-color: #d7d7d7;
+  color: #595959;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.circle-new span {
+  font-size: 14px;
+}
+
+.search-bar-new {
+  display: flex;
+  gap: 50vw;
+}
+
+.ProjectInputSearchBox {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 40vw;
+  height: 6.852vh;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  background: #f6f8fa;
+  padding-left: 40px;
+  font-size: 2vh;
+}
+
+.Add-project {
+  margin-top: 2vh;
+  display: flex;
+  width: 10vw;
+  height: 7vh;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #4e33be;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.modalOverlayNew {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContentNew {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 300px;
+}
+
+.closeModalNew {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.project-rows-container-new {
+  width: 91vw;
+  height: 51vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.833vh;
+}
+
+.project-row {
+  padding: 15px;
+  background-color: #ffffff;
+  border: 0.5px solid #c4c4c4;
+}
+
+.repoNameNew {
+  color: #4e33be;
+  font-size: 2.22vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.repodescriptionNew {
+  color: #868686;
+  font-family: Montserrat;
+  font-size: 1.852vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  margin-top: auto; /* Set pagination to stay at the bottom */
+  margin-bottom: 10px; /* Add some margin at the bottom */
+}
+
+.page-number {
+  padding: 10px;
+  background-color: #4e33be;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Adjusted font size for better visibility */
+}
+
+.page-number:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,86 @@
+.USRnew-top-box {
+  background-color: #1873bb;
+  width: 6vw;
+  flex: 1;
+  height: 3.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #1873bb;
+  cursor: pointer; /* Added cursor pointer for better UX */
+}
+
+.USRnew-top-box-edit {
+  background-color: white;
+  height: 3.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1873bb;
+  font-size: 12px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+.USRnew-top-box img {
+  max-width: 20px;
+  height: auto;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.USRnew-top-box:hover {
+  background-color: #13568f;
+}
+
+.USRnew-top-box-edit:hover {
+  background-color: #f2f2f2;
+}
+
+/* Added a new style for the header */
+.USRnew-header-box {
+  background-color: #1873bb;
+  width: 6vw;
+  height: 4.5vh;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #1873bb;
+  cursor: pointer;
+  color: white;
+}
+
+.USRnew-header-box,
+.USRnew-top-box,
+.USRnew-top-box-edit {
+  width: 10vw;
+}
+
+.USRnew-header-box > div {
+  width: 10%; /* Adjusted the width */
+  text-align: center;
+}
+
+.concept-header {
+  display: flex;
+}
+.header {
+  width: 80%;
+}
+.dots {
+  width: 20%;
+}
+
+.dots_img {
+  height: 0.8vw;
+  margin-right: 1vw;
+  /* margin-bottom: 3vw; */
+  float: right;
+}
+
+td {
+  border: 1px solid #1873bb;
+}

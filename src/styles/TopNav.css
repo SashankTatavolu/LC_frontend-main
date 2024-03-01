@@ -1,0 +1,47 @@
+.project-section {
+  margin-left: 4.5vw;
+  margin-right: 4.5vw;
+}
+
+.project-name {
+  color: #4f33be;
+  font-size: 20px;
+}
+
+.project-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.project-nav a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.project-nav a:hover {
+  text-decoration: underline;
+  color: #4e33be;
+}
+
+.people-circle {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  background-color: #d7d7d7;
+  color: #595959;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.circle span {
+  font-size: 14px;
+}

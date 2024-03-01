@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  background-color: #eff1f3;
+  font-family: "Montserrat";
+}
+
+.repoSection {
+  margin-left: 4.5vw;
+  margin-right: 4.5vw;
+}
+
+.parentRepo {
+  color: #868686;
+  font-size: 2.2vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.childRepo {
+  color: #4f33be;
+  font-size: 2.2vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.repoNavBar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.RepoButton {
+  border: none;
+  color: #595959;
+  font-size: 2.4vh;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.underlined {
+  text-decoration: 2px solid #4e33be underline;
+}

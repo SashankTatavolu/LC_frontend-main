@@ -1,0 +1,7 @@
+.textContent {
+  width: 90vw;
+  height: 65vh;
+  border: 1px solid #c4c4c4;
+  background: #fff;
+  overflow-y: auto;
+}

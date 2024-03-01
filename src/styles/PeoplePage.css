@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  background-color: #eff1f3;
+  font-family: "Montserrat";
+}
+
+.peopleSection {
+  margin-left: 4.5vw;
+  margin-right: 4.5vw;
+}
+
+.manageAccessContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7.315vh;
+}
+
+.peopleHeader {
+  color: #595959;
+  font-size: 18px;
+}
+
+.peopleButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.peopleButton {
+  background-color: #4e33be;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 7px;
+  border: none;
+}
+
+.deleteIcon {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #4e33be;
+  padding: 7px;
+  border-radius: 8px;
+  background-color: #eff1f3;
+}
+
+.selectionBox {
+  border: 1px solid #ccc;
+  width: 91vw;
+  height: 51vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.833vh;
+}
+
+.selectionBoxContentTop {
+  display: flex;
+  justify-content: space-between;
+  height: 10.556vh;
+  align-items: center;
+}
+
+.selectionBoxContentTopLeft {
+  margin-left: 2.865vw;
+  color: #868686;
+  font-weight: 600;
+  font-size: 1.8vh;
+  font-style: normal;
+  line-height: normal;
+}
+
+.selectDropdowns {
+  margin-right: 2.865vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #868686;
+  font-weight: 600;
+  font-size: 1.8vh;
+  font-style: normal;
+  line-height: normal;
+}
+
+.dropdownIcon {
+  height: 1.852vh;
+  width: 1.042vw;
+  margin-right: 2vw;
+}
+
+.additionalLine {
+  height: 1px;
+  background-color: #ccc;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.inputSearchBox {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 85.156vw;
+  height: 6.852vh;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  background: #f6f8fa;
+  padding-left: 40px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.additionalRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.peopleData {
+  display: flex;
+  height: 10.556vh;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2.865vw;
+}
+
+.additionalRow input[type="checkbox"] {
+  margin-right: 1vw;
+}
+
+.profileIcon {
+  width: 3.229vw;
+  height: 5.741vh;
+  border-radius: 50%;
+  margin-right: 1vw;
+}
+
+.nameSurnameContainer {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.name {
+  color: #4e33be;
+  font-size: 2.22vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.surname {
+  color: #868686;
+  font-family: Montserrat;
+  font-size: 1.852vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.roleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 2.865vw;
+}
+
+.roleContainer label {
+  color: #868686;
+  font-size: 1.852vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.roleDropdown {
+  display: inline-flex;
+  padding: 0.926vh 0.521vw;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #4e33be;
+  color: #fff;
+}
+
+.pagination {
+  margin-left: 42.6vw;
+  margin-top: 10vh;
+  display: flex;
+  gap: 3.38vw;
+  align-items: center;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pageName {
+  color: #868686;
+  font-size: 1.852vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pageButtons {
+  border: none;
+  background: transparent;
+  height: 20px;
+  width: 20px;
+}
+
+.Background {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 50;
+}
+
+.ModalWrapper {
+  width: 800px;
+  height: 300px;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  border-radius: 10px;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+.ModalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+  color: #141414;
+}
+
+.ModalContent p {
+  margin-bottom: 1rem;
+}
+
+.ModalContent button {
+  padding: 10px 24px;
+  background: #141414;
+  color: #fff;
+  border: none;
+}
+
+.CloseModalButton {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  z-index: 10;
+  color: #fff;
+}

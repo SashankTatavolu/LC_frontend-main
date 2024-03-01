@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  background-color: #eff1f3;
+  font-family: "Montserrat";
+}
+
+.chaptersSection {
+  margin-top: 4vh;
+  margin-left: 4.5vw;
+  margin-right: 4.5vw;
+}
+
+.ChapterInputSearchBox {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 36vw;
+  height: 6.852vh;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  background: #f6f8fa;
+  padding-left: 40px;
+  font-size: 2vh;
+}
+
+.chapterTop {
+  display: flex;
+  margin-top: 4vh;
+  justify-content: space-between;
+}
+
+.chapterSearch {
+  display: flex;
+}
+
+.chapterSearchBox {
+  margin-right: 20px;
+}
+
+.ChapterSelectDropdowns {
+  display: flex;
+  margin-top: 4vh;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+.dropdownIcon {
+  height: 1.852vh;
+  width: 1.042vw;
+  margin-right: 2vw;
+}
+
+.ChapterSearchIcon {
+  position: absolute;
+  top: 26vh;
+  left: 80px;
+  height: 20px;
+  width: 20px;
+}
+
+.repoButton {
+  margin-top: 2vh;
+  display: flex;
+  width: 12.9vw;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #4e33be;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.repoContainer {
+  width: 91vw;
+  height: 51vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.833vh;
+}
+
+.repoBox {
+  padding: 15px;
+  background-color: #ffffff;
+  border: 0.5px solid #c4c4c4;
+}
+
+.repoName {
+  color: #4e33be;
+  font-size: 2.22vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.firstRow {
+  background: #f3f1ff;
+}
+
+.repodescription {
+  color: #868686;
+  font-family: Montserrat;
+  font-size: 1.852vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.chapterPagination {
+  /* margin-top: 5px; */
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  gap: 2vw;
+  align-items: center;
+}
+
+.chapterPagination button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chapterPagination button:hover {
+  background-color: #ddd;
+}
+
+.chapterPagination button.activePage {
+  background: #4e33be;
+  color: white;
+}
+
+.repoName {
+  font-weight: bold;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 300px;
+}
+
+.closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

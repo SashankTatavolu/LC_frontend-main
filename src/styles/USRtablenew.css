@@ -1,0 +1,49 @@
+.USRnew-table-box {
+  width: 85%; /* Adjusted the width */
+  /* padding: 1vw; */
+  border-radius: 10px;
+  overflow: auto;
+  font-size: 12px; /* Adjusted the font size */
+}
+
+.USRnew-top-box {
+  background-color: #1873bb;
+  flex: 1;
+  min-width: 0;
+  height: 3.5vh; /* Adjusted the height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px; /* Adjusted the font size */
+  font-weight: 500;
+  border: 1px solid #1873bb;
+}
+
+.USRnew-top-box-edit {
+  background-color: white;
+  flex: 1;
+  min-width: 0;
+  height: 3.5vh; /* Adjusted the height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1873bb;
+  font-size: 12px; /* Adjusted the font size */
+  font-weight: 300;
+}
+
+.USRnew-top-box img {
+  max-width: 20px;
+  height: auto;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.USRnew-top-box:hover {
+  background-color: #13568f;
+}
+
+.USRnew-top-box-edit:hover {
+  background-color: #f2f2f2;
+}
